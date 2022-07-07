@@ -1,0 +1,16 @@
+.container {
+    height: 100vh;
+    background-color: #1d2a3a;
+    display: grid;
+    place-items: center;
+}
+
+.picture {
+    font-size: .625rem;
+    line-height: .625rem;
+    background: url(./cat.png) fixed center no-repeat;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.1);
+}
